@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+# build artifacts
+/build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
