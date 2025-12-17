@@ -28,3 +28,6 @@ else()
     target_compile_options(opensimlab_numerical_algorithms PRIVATE -Wall -Wextra -Wpedantic)
 endif()
 
+# Add example excutable
+add_executable(newton_example examples/newton_example.cpp)
+target_link_libraries(newton_example PRIVATE opensimlab_numerical_algorithms)
